@@ -58,7 +58,7 @@
     }
     
 
-    效果图，
+效果图，
     
 ![image](https://github.com/ITIosEthan/CzyShoppingCar/blob/master/%E9%80%89%E6%8B%A9.gif)
 
@@ -76,5 +76,6 @@
     }
     
 效果图，编辑：
+
 ![image](https://github.com/ITIosEthan/CzyShoppingCar/blob/master/%E7%BC%96%E8%BE%91.gif)
 
