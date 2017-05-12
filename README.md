@@ -5,7 +5,7 @@
     
 使用YYModel管理数据结构
 
-#### 选择：
+### 选择：
 
     关键逻辑代码：
     
@@ -63,7 +63,7 @@
 ![image](https://github.com/ITIosEthan/CzyShoppingCar/blob/master/%E9%80%89%E6%8B%A9.gif)
 
     
-编辑：
+### 编辑：
     
     // >!更新商店内每个商品编辑状态
     
