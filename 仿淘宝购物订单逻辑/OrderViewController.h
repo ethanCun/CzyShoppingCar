@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OrderViewController.h
 //  仿淘宝购物订单逻辑
 //
 //  Created by macOfEthan on 17/4/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OrderViewController : UIViewController
 
 @end
-

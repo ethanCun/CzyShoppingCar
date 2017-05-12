@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		067C744A1EA342ED00E789E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C74491EA342ED00E789E7 /* main.m */; };
 		067C744D1EA342ED00E789E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C744C1EA342ED00E789E7 /* AppDelegate.m */; };
-		067C74501EA342ED00E789E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C744F1EA342ED00E789E7 /* ViewController.m */; };
 		067C74531EA342ED00E789E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067C74511EA342ED00E789E7 /* Main.storyboard */; };
 		067C74551EA342ED00E789E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067C74541EA342ED00E789E7 /* Assets.xcassets */; };
 		067C74581EA342ED00E789E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067C74561EA342ED00E789E7 /* LaunchScreen.storyboard */; };
 		067C74631EA342ED00E789E7 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C74621EA342ED00E789E7 /* _________Tests.m */; };
 		067C746E1EA342ED00E789E7 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C746D1EA342ED00E789E7 /* _________UITests.m */; };
+		067C747D1EA3431500E789E7 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C747C1EA3431500E789E7 /* OrderViewController.m */; };
+		067C74801EA3523800E789E7 /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C747F1EA3523800E789E7 /* OrderCell.m */; };
+		067C74831EA352CD00E789E7 /* OrderHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C74821EA352CD00E789E7 /* OrderHeaderView.m */; };
+		06A389651EAADDBE00947168 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06A389641EAADDBE00947168 /* Info.plist */; };
+		06A389671EAADDC900947168 /* CzyShopPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06A389661EAADDC900947168 /* CzyShopPlist.plist */; };
+		06A3896A1EAADF5400947168 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A389691EAADF5400947168 /* OrderModel.m */; };
+		18F22C5AF6BBBF8ECADA0019 /* libPods-仿淘宝购物订单逻辑.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1282CF8CD131C770EC7289E9 /* libPods-仿淘宝购物订单逻辑.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +45,29 @@
 		067C74491EA342ED00E789E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		067C744B1EA342ED00E789E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		067C744C1EA342ED00E789E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		067C744E1EA342ED00E789E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		067C744F1EA342ED00E789E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		067C74521EA342ED00E789E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067C74541EA342ED00E789E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		067C74571EA342ED00E789E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		067C74591EA342ED00E789E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067C745E1EA342ED00E789E7 /* 仿淘宝购物订单逻辑Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿淘宝购物订单逻辑Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067C74621EA342ED00E789E7 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
 		067C74641EA342ED00E789E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067C74691EA342ED00E789E7 /* 仿淘宝购物订单逻辑UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿淘宝购物订单逻辑UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067C746D1EA342ED00E789E7 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		067C746F1EA342ED00E789E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067C747B1EA3431500E789E7 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		067C747C1EA3431500E789E7 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		067C747E1EA3523800E789E7 /* OrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
+		067C747F1EA3523800E789E7 /* OrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCell.m; sourceTree = "<group>"; };
+		067C74811EA352CD00E789E7 /* OrderHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderHeaderView.h; sourceTree = "<group>"; };
+		067C74821EA352CD00E789E7 /* OrderHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderHeaderView.m; sourceTree = "<group>"; };
+		068E81641EAB52AA00519DD9 /* OrderHeaderPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderHeaderPch.pch; sourceTree = "<group>"; };
+		06A389641EAADDBE00947168 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A389661EAADDC900947168 /* CzyShopPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CzyShopPlist.plist; sourceTree = "<group>"; };
+		06A389681EAADF5400947168 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
+		06A389691EAADF5400947168 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
+		1282CF8CD131C770EC7289E9 /* libPods-仿淘宝购物订单逻辑.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-仿淘宝购物订单逻辑.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF55BE1B73BAF7C7427F14F /* Pods-仿淘宝购物订单逻辑.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿淘宝购物订单逻辑.debug.xcconfig"; path = "Pods/Target Support Files/Pods-仿淘宝购物订单逻辑/Pods-仿淘宝购物订单逻辑.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A4B9181B459193AF8CD6C5 /* Pods-仿淘宝购物订单逻辑.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿淘宝购物订单逻辑.release.xcconfig"; path = "Pods/Target Support Files/Pods-仿淘宝购物订单逻辑/Pods-仿淘宝购物订单逻辑.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F22C5AF6BBBF8ECADA0019 /* libPods-仿淘宝购物订单逻辑.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				067C74611EA342ED00E789E7 /* 仿淘宝购物订单逻辑Tests */,
 				067C746C1EA342ED00E789E7 /* 仿淘宝购物订单逻辑UITests */,
 				067C74461EA342ED00E789E7 /* Products */,
+				17E8D4B580BB081AFFDDD00D /* Pods */,
+				748CE494279F3F2F7EB530BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +123,18 @@
 			children = (
 				067C744B1EA342ED00E789E7 /* AppDelegate.h */,
 				067C744C1EA342ED00E789E7 /* AppDelegate.m */,
-				067C744E1EA342ED00E789E7 /* ViewController.h */,
-				067C744F1EA342ED00E789E7 /* ViewController.m */,
+				067C747B1EA3431500E789E7 /* OrderViewController.h */,
+				067C747C1EA3431500E789E7 /* OrderViewController.m */,
+				067C74811EA352CD00E789E7 /* OrderHeaderView.h */,
+				067C74821EA352CD00E789E7 /* OrderHeaderView.m */,
+				067C747E1EA3523800E789E7 /* OrderCell.h */,
+				067C747F1EA3523800E789E7 /* OrderCell.m */,
+				06A389681EAADF5400947168 /* OrderModel.h */,
+				06A389691EAADF5400947168 /* OrderModel.m */,
 				067C74511EA342ED00E789E7 /* Main.storyboard */,
 				067C74541EA342ED00E789E7 /* Assets.xcassets */,
 				067C74561EA342ED00E789E7 /* LaunchScreen.storyboard */,
-				067C74591EA342ED00E789E7 /* Info.plist */,
+				06A389661EAADDC900947168 /* CzyShopPlist.plist */,
 				067C74481EA342ED00E789E7 /* Supporting Files */,
 			);
 			path = "仿淘宝购物订单逻辑";
@@ -117,6 +143,8 @@
 		067C74481EA342ED00E789E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				068E81641EAB52AA00519DD9 /* OrderHeaderPch.pch */,
+				06A389641EAADDBE00947168 /* Info.plist */,
 				067C74491EA342ED00E789E7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +168,23 @@
 			path = "仿淘宝购物订单逻辑UITests";
 			sourceTree = "<group>";
 		};
+		17E8D4B580BB081AFFDDD00D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF55BE1B73BAF7C7427F14F /* Pods-仿淘宝购物订单逻辑.debug.xcconfig */,
+				C9A4B9181B459193AF8CD6C5 /* Pods-仿淘宝购物订单逻辑.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		748CE494279F3F2F7EB530BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1282CF8CD131C770EC7289E9 /* libPods-仿淘宝购物订单逻辑.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 067C74721EA342ED00E789E7 /* Build configuration list for PBXNativeTarget "仿淘宝购物订单逻辑" */;
 			buildPhases = (
+				9F4DD649A6E46EE2285A35C6 /* [CP] Check Pods Manifest.lock */,
 				067C74411EA342ED00E789E7 /* Sources */,
 				067C74421EA342ED00E789E7 /* Frameworks */,
 				067C74431EA342ED00E789E7 /* Resources */,
+				3C69931C60BD67F4C903634D /* [CP] Embed Pods Frameworks */,
+				9CFCDD9F3791B04C58D04A68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +255,7 @@
 				TargetAttributes = {
 					067C74441EA342ED00E789E7 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VHTS56THAN;
 						ProvisioningStyle = Automatic;
 					};
 					067C745D1EA342ED00E789E7 = {
@@ -246,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A389671EAADDC900947168 /* CzyShopPlist.plist in Resources */,
+				06A389651EAADDBE00947168 /* Info.plist in Resources */,
 				067C74581EA342ED00E789E7 /* LaunchScreen.storyboard in Resources */,
 				067C74551EA342ED00E789E7 /* Assets.xcassets in Resources */,
 				067C74531EA342ED00E789E7 /* Main.storyboard in Resources */,
@@ -268,14 +319,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C69931C60BD67F4C903634D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿淘宝购物订单逻辑/Pods-仿淘宝购物订单逻辑-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFCDD9F3791B04C58D04A68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿淘宝购物订单逻辑/Pods-仿淘宝购物订单逻辑-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4DD649A6E46EE2285A35C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		067C74411EA342ED00E789E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067C74501EA342ED00E789E7 /* ViewController.m in Sources */,
 				067C744D1EA342ED00E789E7 /* AppDelegate.m in Sources */,
 				067C744A1EA342ED00E789E7 /* main.m in Sources */,
+				06A3896A1EAADF5400947168 /* OrderModel.m in Sources */,
+				067C747D1EA3431500E789E7 /* OrderViewController.m in Sources */,
+				067C74831EA352CD00E789E7 /* OrderHeaderView.m in Sources */,
+				067C74801EA3523800E789E7 /* OrderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,22 +524,28 @@
 		};
 		067C74731EA342ED00E789E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF55BE1B73BAF7C7427F14F /* Pods-仿淘宝购物订单逻辑.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VHTS56THAN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/仿淘宝购物订单逻辑/OrderHeaderPch.pch";
 				INFOPLIST_FILE = "仿淘宝购物订单逻辑/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "abbyEthanLove.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = www.tkface.cn.TKFACE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		067C74741EA342ED00E789E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A4B9181B459193AF8CD6C5 /* Pods-仿淘宝购物订单逻辑.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VHTS56THAN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/仿淘宝购物订单逻辑/OrderHeaderPch.pch";
 				INFOPLIST_FILE = "仿淘宝购物订单逻辑/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "abbyEthanLove.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = www.tkface.cn.TKFACE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +615,7 @@
 				067C74741EA342ED00E789E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		067C74751EA342ED00E789E7 /* Build configuration list for PBXNativeTarget "仿淘宝购物订单逻辑Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +624,7 @@
 				067C74771EA342ED00E789E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		067C74781EA342ED00E789E7 /* Build configuration list for PBXNativeTarget "仿淘宝购物订单逻辑UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +633,7 @@
 				067C747A1EA342ED00E789E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

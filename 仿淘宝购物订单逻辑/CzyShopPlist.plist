@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>czyShopList</key>
+	<array>
+		<dict>
+			<key>czyCompanyImgUrl</key>
+			<string>https://gdp.alicdn.com/imgextra/i1/2923048015/TB2jh.nbCBjpuFjy1XdXXaooVXa_!!2923048015.jpg</string>
+			<key>czyCompanyName</key>
+			<string>hp惠普儒韵专卖店</string>
+			<key>czyCompanyId</key>
+			<string>1</string>
+			<key>czyGoodsList</key>
+			<array>
+				<dict>
+					<key>czyGoodsId</key>
+					<string>01</string>
+					<key>czyGoodsAmount</key>
+					<string>1</string>
+					<key>czyGoodsPrice</key>
+					<string>5599.00</string>
+					<key>czyGoodsStock</key>
+					<string>999</string>
+					<key>czyCartId</key>
+					<string>11</string>
+					<key>czyGoodsName</key>
+					<string>HP/惠普 光影精灵 暗影精灵II 游戏笔记本电脑i7暗夜精灵2代plus</string>
+					<key>czyGoodsUrl</key>
+					<string>https://img.alicdn.com/imgextra/i2/2763032887/TB2.ShhfoOO.eBjSZFLXXcxmXXa-2763032887.jpg</string>
+					<key>czyUserId</key>
+					<string>czy</string>
+					<key>czyGoodsSpecs</key>
+					<string>全天猫实物商品通用</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>czyCompanyImgUrl</key>
+			<string>https://img.alicdn.com/tps/TB1eREfLVXXXXaHXFXXXXXXXXXX-480-260.png</string>
+			<key>czyCompanyName</key>
+			<string>clife旗舰店</string>
+			<key>czyCompanyId</key>
+			<string>2</string>
+			<key>czyGoodsList</key>
+			<array>
+				<dict>
+					<key>czyGoodsId</key>
+					<string>11</string>
+					<key>czyGoodsAmount</key>
+					<string>1</string>
+					<key>czyGoodsPrice</key>
+					<string>4799.00</string>
+					<key>czyGoodsStock</key>
+					<string>998</string>
+					<key>czyCartId</key>
+					<string>21</string>
+					<key>czyGoodsName</key>
+					<string>Asus/华硕 顽石 顽石4代FL5900U超薄15.6英寸游戏笔记本电脑i7</string>
+					<key>czyGoodsUrl</key>
+					<string>https://img.alicdn.com/imgextra/i1/2923048015/TB2WKq.dceK.eBjSszgXXczFpXa_!!2923048015.jpg</string>
+					<key>czyUserId</key>
+					<string>czy</string>
+					<key>czyGoodsSpecs</key>
+					<string>全天猫实物商品通用</string>
+				</dict>
+				<dict>
+					<key>czyGoodsId</key>
+					<string>12</string>
+					<key>czyGoodsAmount</key>
+					<string>1</string>
+					<key>czyGoodsPrice</key>
+					<string>3699.00</string>
+					<key>czyGoodsStock</key>
+					<string>1098</string>
+					<key>czyCartId</key>
+					<string>22</string>
+					<key>czyGoodsName</key>
+					<string>Asus/华硕 F540 F540UP顽石畅玩版15.6英寸商务办公笔记本电脑</string>
+					<key>czyGoodsUrl</key>
+					<string>https://img.alicdn.com/imgextra/i4/2923048015/TB2rg7Jc.5O.eBjSZFxXXaaJFXa_!!2923048015.jpg_430x430q90.jpg</string>
+					<key>czyUserId</key>
+					<string>czy</string>
+					<key>czyGoodsSpecs</key>
+					<string>全天猫实物商品通用</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

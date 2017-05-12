@@ -1,0 +1,17 @@
+PODS:
+  - SDWebImage (4.0.0-beta2):
+    - SDWebImage/Core (= 4.0.0-beta2)
+  - SDWebImage/Core (4.0.0-beta2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - SDWebImage (~> 4.0.0-beta2)
+  - YYModel (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 7badadea370ccbc90549921faf67cb4e57a10e92
+
+COCOAPODS: 1.1.1
