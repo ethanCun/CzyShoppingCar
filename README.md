@@ -2,8 +2,6 @@
 
 设计模式MVC 控制器450行代码 cell 280行代码 实现类似淘宝购物车的选择，编辑，删除等功能
     
-使用[ibireme](https://github.com/ibireme)的[YYModel](https://github.com/ibireme/YYModel)管理数据结构
-
 ### 选择：
 
     关键逻辑代码：
